@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ReadingApp.Views.UserAssessmentSelectGradeLevel"
+             xmlns:vm="clr-namespace:ReadingApp.ViewModels;"
+             Title="{Binding Title}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <ScrollView Grid.Row="0">
+            <StackLayout Orientation="Vertical" VerticalOptions="Start" Padding="16,40,16,40" Spacing="10">
+                <Label FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center">
+                Assessment
+                </Label>                          
+                <Label FontSize="16" FontAttributes="Italic" HorizontalTextAlignment="Center">
+                Enter Your Details
+                </Label>  
+            </StackLayout>      
+        </ScrollView>
+
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" VerticalOptions="Start" Padding="16,40,16,40" Spacing="10">
+                <Label FontSize="14" FontAttributes="Italic" HorizontalTextAlignment="Start">
+                    First Name
+                </Label>   
+                <Entry x:Name="FirstNameTxt" Placeholder="John"></Entry>
+
+                <Label FontSize="14" FontAttributes="Italic" HorizontalTextAlignment="Start">
+                    Last Name
+                </Label>
+                <Entry x:Name="LastNameTxt" Placeholder="Smith"></Entry>
+
+                <Label FontSize="14" FontAttributes="Italic" HorizontalTextAlignment="Start">
+                    Grade Level
+                </Label>
+                <Picker x:Name="GradeLevelPicker" Title="Select a grade level">
+                  <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                      <x:String>K</x:String>
+                      <x:String>1</x:String>
+                      <x:String>2</x:String>
+                      <x:String>3</x:String>
+                    </x:Array>
+                  </Picker.ItemsSource>
+                </Picker>
+                    
+                <Button x:Name="GoToAssessment" BorderColor="Blue" Text="Go To Assessment" />
+            </StackLayout>      
+        </ScrollView>
+
+
+
+    </Grid>
+</ContentPage>

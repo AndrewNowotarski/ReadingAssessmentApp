@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{73F5CE71-DFB7-4247-B90C-0B4348BCC5B9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReadingApp/ReadingApp/Views/UserAssesssment.xaml">
+    <Files>
+      <File FileName="ReadingApp/ReadingApp/Views/UserAssessment.cs" Line="43" Column="16" />
+      <File FileName="ReadingApp/ReadingApp/Views/UserAssesssment.xaml" Line="19" Column="109" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ReadingApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3EDFFC79-E6B9-4AC7-AE47-3E05B84A0C9B" automaticSigning="False" />
+</Properties>

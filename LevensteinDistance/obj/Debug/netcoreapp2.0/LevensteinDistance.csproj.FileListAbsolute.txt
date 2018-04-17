@@ -1,0 +1,11 @@
+C:\PersonalRepo\LevensteinDistance\bin\Debug\netcoreapp2.0\LevensteinDistance.deps.json
+C:\PersonalRepo\LevensteinDistance\bin\Debug\netcoreapp2.0\LevensteinDistance.runtimeconfig.json
+C:\PersonalRepo\LevensteinDistance\bin\Debug\netcoreapp2.0\LevensteinDistance.runtimeconfig.dev.json
+C:\PersonalRepo\LevensteinDistance\bin\Debug\netcoreapp2.0\LevensteinDistance.dll
+C:\PersonalRepo\LevensteinDistance\bin\Debug\netcoreapp2.0\LevensteinDistance.pdb
+C:\PersonalRepo\LevensteinDistance\obj\Debug\netcoreapp2.0\LevensteinDistance.csprojResolveAssemblyReference.cache
+C:\PersonalRepo\LevensteinDistance\obj\Debug\netcoreapp2.0\LevensteinDistance.csproj.CoreCompileInputs.cache
+C:\PersonalRepo\LevensteinDistance\obj\Debug\netcoreapp2.0\LevensteinDistance.AssemblyInfoInputs.cache
+C:\PersonalRepo\LevensteinDistance\obj\Debug\netcoreapp2.0\LevensteinDistance.AssemblyInfo.cs
+C:\PersonalRepo\LevensteinDistance\obj\Debug\netcoreapp2.0\LevensteinDistance.dll
+C:\PersonalRepo\LevensteinDistance\obj\Debug\netcoreapp2.0\LevensteinDistance.pdb

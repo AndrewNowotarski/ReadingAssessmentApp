@@ -1,0 +1,11 @@
+C:\PersonalRepo\LevensteinDistance\obj\Debug\netcoreapp2.0\ReadingScoreCalculation.csprojResolveAssemblyReference.cache
+C:\PersonalRepo\LevensteinDistance\obj\Debug\netcoreapp2.0\ReadingScoreCalculation.csproj.CoreCompileInputs.cache
+C:\PersonalRepo\LevensteinDistance\obj\Debug\netcoreapp2.0\ReadingScoreCalculation.AssemblyInfoInputs.cache
+C:\PersonalRepo\LevensteinDistance\obj\Debug\netcoreapp2.0\ReadingScoreCalculation.AssemblyInfo.cs
+C:\PersonalRepo\LevensteinDistance\bin\Debug\netcoreapp2.0\ReadingScoreCalculation.deps.json
+C:\PersonalRepo\LevensteinDistance\bin\Debug\netcoreapp2.0\ReadingScoreCalculation.runtimeconfig.json
+C:\PersonalRepo\LevensteinDistance\bin\Debug\netcoreapp2.0\ReadingScoreCalculation.runtimeconfig.dev.json
+C:\PersonalRepo\LevensteinDistance\bin\Debug\netcoreapp2.0\ReadingScoreCalculation.dll
+C:\PersonalRepo\LevensteinDistance\bin\Debug\netcoreapp2.0\ReadingScoreCalculation.pdb
+C:\PersonalRepo\LevensteinDistance\obj\Debug\netcoreapp2.0\ReadingScoreCalculation.dll
+C:\PersonalRepo\LevensteinDistance\obj\Debug\netcoreapp2.0\ReadingScoreCalculation.pdb

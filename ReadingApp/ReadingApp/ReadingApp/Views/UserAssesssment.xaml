@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ReadingApp.Views.UserAssessment"
+             xmlns:vm="clr-namespace:ReadingApp.ViewModels;"
+             Title="{Binding Title}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <ScrollView Grid.Row="0">
+            <StackLayout Orientation="Vertical" VerticalOptions="Start" Padding="16,40,16,40" Spacing="10">
+                <Label x:Name="Passage" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center">
+                Text Goes Here
+                </Label>                          
+                <Label x:Name="UserText" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center">
+                What you read
+                </Label>
+                <Button x:Name="StartAssessment" BorderColor="Blue" Clicked="StartAssessment_Clicked"  Text="Start Assessment" />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

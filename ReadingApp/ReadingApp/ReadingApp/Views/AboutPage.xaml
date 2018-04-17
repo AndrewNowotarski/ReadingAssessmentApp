@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ReadingApp.Views.AboutPage"
+             xmlns:vm="clr-namespace:ReadingApp.ViewModels;"
+             Title="{Binding Title}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <ScrollView Grid.Row="0">
+            <StackLayout Orientation="Vertical" VerticalOptions="Start" Padding="16,40,16,40" Spacing="10">
+                <Label FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center">
+                    Reading Assessment
+                </Label>
+
+                <Label FontSize="18" FontAttributes="Italic" HorizontalOptions="Center">
+                    CS6460 Spring 2018 Semester Project
+                </Label>
+
+                <Label FontSize="16" HorizontalOptions="Center">
+                    Written By Andrew Nowotarski
+                </Label>
+
+            </StackLayout>
+            
+        </ScrollView>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" VerticalOptions="Start" Padding="16,40,16,40" Spacing="10">
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="This application is a cross-platform mobile application for assessing reading ability built with the" />
+                                <Span Text=" " />
+                                <Span Text="Xamarin Platform" FontAttributes="Bold" />
+                                <Span Text="." />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="It assesses a reader's ability in 3 ways; " />
+                                <Span Text="Reading Speed, Reading Accuracy, and Reading Comprehension" FontAttributes="Bold" />
+                                <Span Text="." />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+
+    </Grid>
+</ContentPage>
