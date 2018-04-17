@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{73F5CE71-DFB7-4247-B90C-0B4348BCC5B9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ReadingApp/ReadingApp/Views/UserAssesssment.xaml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="ReadingApp/ReadingApp/Views/UserAssessment.cs" Line="43" Column="16" />
-      <File FileName="ReadingApp/ReadingApp/Views/UserAssesssment.xaml" Line="19" Column="109" />
+      <File FileName="ReadingApp/ReadingApp/Views/UserAssessment.cs" Line="43" Column="4" />
+      <File FileName="ReadingApp/ReadingApp/Views/UserAssesssment.xaml" Line="25" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

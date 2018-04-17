@@ -697,11 +697,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/andrewnowotarski/Desktop/ReadingAPP/ReadingApp/ReadingApp/ReadingApp.iOS/ReadingApp.iOS.csproj",
+      "projectUniqueName": "/Users/andrewnowotarski/Desktop/Git Repos/ReadingAssessmentApp/ReadingApp/ReadingApp/ReadingApp.iOS/ReadingApp.iOS.csproj",
       "projectName": "ReadingApp.iOS",
-      "projectPath": "/Users/andrewnowotarski/Desktop/ReadingAPP/ReadingApp/ReadingApp/ReadingApp.iOS/ReadingApp.iOS.csproj",
+      "projectPath": "/Users/andrewnowotarski/Desktop/Git Repos/ReadingAssessmentApp/ReadingApp/ReadingApp/ReadingApp.iOS/ReadingApp.iOS.csproj",
       "packagesPath": "/Users/andrewnowotarski/.nuget/packages/",
-      "outputPath": "/Users/andrewnowotarski/Desktop/ReadingAPP/ReadingApp/ReadingApp/ReadingApp.iOS/obj",
+      "outputPath": "/Users/andrewnowotarski/Desktop/Git Repos/ReadingAssessmentApp/ReadingApp/ReadingApp/ReadingApp.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/andrewnowotarski/.config/NuGet/NuGet.Config"

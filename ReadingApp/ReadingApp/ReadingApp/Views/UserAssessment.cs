@@ -1,6 +1,7 @@
 ﻿using Speech;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Foundation;
 using AVFoundation;
 
 namespace ReadingApp.Views
@@ -15,6 +16,9 @@ namespace ReadingApp.Views
         private SFSpeechAudioBufferRecognitionRequest LiveSpeechRequest = new SFSpeechAudioBufferRecognitionRequest();
         private SFSpeechRecognitionTask RecognitionTask;
 
+        /* Voice recognition reference:
+        https://docs.microsoft.com/en-us/xamarin/ios/platform/speech?tabs=vsmac
+        */
         public UserAssessment ()
 		{
 			InitializeComponent();
@@ -51,16 +55,64 @@ namespace ReadingApp.Views
             if (assessmentInProgress)
             {
                 /* Start listening to the user. */
+                StartListening();
                 StartAssessment.Text = "End Assessment";
             }
             else
             {
                 /* Stop listening to the user and commence assessment. */
+                StopListening();
                 StartAssessment.Text = "Start Assessment";
                 StartAssessment.IsEnabled = false;
             }
+        }
 
+        void StartListening()
+        {
+            /* Setup audio session. */
+            var node = AudioEngine.InputNode;
+            var recordingFormat = node.GetBusOutputFormat(0);
+            node.InstallTapOnBus(0, 1024, recordingFormat, (AVAudioPcmBuffer buffer, AVAudioTime when) => {
+                /* Append buffer to recognition request. */
+                LiveSpeechRequest.Append(buffer);
+            });
 
+            /* Start recording */
+            AudioEngine.Prepare();
+            NSError error;
+            AudioEngine.StartAndReturnError(out error);
+
+            /* Did recording start? */
+            if (error != null)
+            {
+                /* Do nothing. */
+                return;
+            }
+
+            /* Start recognition. */
+            RecognitionTask = SpeechRecognizer.GetRecognitionTask(LiveSpeechRequest, (SFSpeechRecognitionResult result, NSError err) => {
+                /* Was there an error? */
+                if (err != null)                {
+                    /* Do nothing. */                }
+                else
+                {
+                    // Is this the final translation?
+                    if (result.Final)                    {
+                        UserText.Text = result.BestTranscription.FormattedString;                    }
+                }
+            });
+        }
+
+        void StopListening()
+        {
+            AudioEngine.Stop();
+            LiveSpeechRequest.EndAudio();
+        }
+
+        void CancelRecording()
+        {
+            AudioEngine.Stop();
+            RecognitionTask.Cancel();
         }
 
 	}

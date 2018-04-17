@@ -8,10 +8,12 @@
 #include <objc/message.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 #import <CoreSpotlight/CoreSpotlight.h>
 #import <CloudKit/CloudKit.h>
 #import <QuartzCore/QuartzCore.h>
 #import <Intents/Intents.h>
+#import <Speech/Speech.h>
 #import <GLKit/GLKit.h>
 #import <CoreGraphics/CoreGraphics.h>
 

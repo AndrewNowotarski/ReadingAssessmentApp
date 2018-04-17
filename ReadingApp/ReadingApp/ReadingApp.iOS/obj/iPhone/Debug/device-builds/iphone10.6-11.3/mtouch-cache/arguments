@@ -1,7 +1,7 @@
 # Version: 11.9.1.24 (xcode9.3: f62de472)
-# [first argument, ignore] # --cache=/Users/andrewnowotarski/Desktop/ReadingAPP/ReadingApp/ReadingApp/ReadingApp.iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-cache
+# [first argument, ignore] # --cache=/Users/andrewnowotarski/Desktop/Git Repos/ReadingAssessmentApp/ReadingApp/ReadingApp/ReadingApp.iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-cache
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mtouch/mtouch.exe \
-	--dev=/Users/andrewnowotarski/Desktop/ReadingAPP/ReadingApp/ReadingApp/ReadingApp.iOS/bin/iPhone/Debug/device-builds/iphone10.6-11.3/ReadingApp.iOS.app \
+	'--dev=/Users/andrewnowotarski/Desktop/Git Repos/ReadingAssessmentApp/ReadingApp/ReadingApp/ReadingApp.iOS/bin/iPhone/Debug/device-builds/iphone10.6-11.3/ReadingApp.iOS.app' \
 	--executable=ReadingApp.iOS \
 	--debug \
 	--linksdkonly \
@@ -11,7 +11,7 @@
 	--aot-options=-O=-float32 \
 	--http-message-handler=HttpClientHandler \
 	--abi=arm64 \
-	--symbollist=/Users/andrewnowotarski/Desktop/ReadingAPP/ReadingApp/ReadingApp/ReadingApp.iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-symbols.list \
+	'--symbollist=/Users/andrewnowotarski/Desktop/Git Repos/ReadingAssessmentApp/ReadingApp/ReadingApp/ReadingApp.iOS/obj/iPhone/Debug/device-builds/iphone10.6-11.3/mtouch-symbols.list' \
 	--dsym=no \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
@@ -198,4 +198,4 @@
 	-r=/Users/andrewnowotarski/.nuget/packages/xamarin.forms/2.5.1.444934/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r=/Users/andrewnowotarski/.nuget/packages/xamarin.forms/2.5.1.444934/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
 	'--target-framework=Xamarin.iOS,v1.0' \
-	--root-assembly=/Users/andrewnowotarski/Desktop/ReadingAPP/ReadingApp/ReadingApp/ReadingApp.iOS/bin/iPhone/Debug/ReadingApp.iOS.exe \
+	'--root-assembly=/Users/andrewnowotarski/Desktop/Git Repos/ReadingAssessmentApp/ReadingApp/ReadingApp/ReadingApp.iOS/bin/iPhone/Debug/ReadingApp.iOS.exe' \

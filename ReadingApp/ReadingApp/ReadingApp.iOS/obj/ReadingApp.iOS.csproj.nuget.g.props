@@ -3,7 +3,7 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
-    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">/Users/andrewnowotarski/Desktop/ReadingAPP/ReadingApp/ReadingApp/ReadingApp.iOS/obj/project.assets.json</ProjectAssetsFile>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">/Users/andrewnowotarski/Desktop/Git Repos/ReadingAssessmentApp/ReadingApp/ReadingApp/ReadingApp.iOS/obj/project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/andrewnowotarski/.nuget/packages/</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/andrewnowotarski/.nuget/packages/</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>

@@ -1,4 +1,4 @@
-/Users/andrewnowotarski/Desktop/ReadingAPP/ReadingApp/ReadingApp/ReadingApp.iOS/bin/iPhone/Debug/ReadingApp.iOS.exe
+/Users/andrewnowotarski/Desktop/Git Repos/ReadingAssessmentApp/ReadingApp/ReadingApp/ReadingApp.iOS/bin/iPhone/Debug/ReadingApp.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/mscorlib.dll
 /Users/andrewnowotarski/.nuget/packages/xamarin.forms/2.5.1.444934/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Facades/System.Runtime.dll
